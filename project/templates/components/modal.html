@@ -1,0 +1,39 @@
+<div class="modal" id="inquiryModal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2 class="modal-title">Product Inquiry</h2>
+        <form class="inquiry-form">
+            <div>
+                <label for="product">Product of Interest</label>
+                <input type="text" id="product" name="product" readonly>
+            </div>
+            <div>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="organization">Organization</label>
+                <input type="text" id="organization" name="organization" required>
+            </div>
+            <div>
+                <label for="use">Intended Use</label>
+                <select id="use" name="use" required>
+                    <option value="">Select an option</option>
+                    <option value="education">Educational</option>
+                    <option value="research">Research</option>
+                    <option value="commercial">Commercial</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Specific Questions or Requirements</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit Inquiry</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,73 @@
+{# <header>
+    <div class="container header-container">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Company Logo" class="logo-img">
+            <h1>Abhyuday CubeSat Solutions</h1>
+        </div>
+
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <nav id="mainNav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li>
+                    <a href="#products">Products <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="#cubesat-kits" class="category-link" data-category="cubesat-kits">CubeSat Kits</a></li>
+                    </ul>
+                </li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#applications">Applications</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="header-actions">
+            <a href="#contact" class="contact-btn">Request Info</a>
+        </div>
+    </div>
+</header> #}
+
+
+<header>
+    <div class="container header-container">
+        <!-- Logo -->
+        <div class="logo">
+            <a href="{{ url_for('index') }}#home">
+                <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Company Logo" class="logo-img">
+            </a>
+            <h1>Abhyuday CubeSat Solutions</h1>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button class="mobile-menu-btn" aria-label="Toggle Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Navigation -->
+        <nav id="mainNav">
+            <ul>
+                <li><a href="{{ url_for('index') }}#home">Home</a></li>
+
+             <!-- Products with Dropdown -->
+            <li>
+                <a href="#products">Products <i class="fas fa-chevron-down"></i></a>
+                <ul class="dropdown">
+                    <li>
+                        <a href="#cubesat-kits">CubeSat Kits</a>
+                    </li>
+                </ul>
+            </li> 
+
+                <li><a href="{{ url_for('index') }}#solutions">Solutions</a></li>
+                <li><a href="{{ url_for('index') }}#applications">Applications</a></li>
+                <li><a href="{{ url_for('index') }}#about">About</a></li>
+                <li><a href="{{ url_for('index') }}#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>

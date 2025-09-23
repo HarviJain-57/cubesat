@@ -1,0 +1,148 @@
+{
+  "1u-cubesat": {
+    "title": "1U CubeSat",
+    "image": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?auto=format&fit=crop&w=1000&q=80",
+    "specs": {
+      "Dimensions": "100mm × 100mm × 113.5mm",
+      "Weight": "~1.33 kg",
+      "Material": "Aerospace-grade aluminum (6061-T6 or equivalent)",
+      "Rail System": "Anodized aluminum for reduced friction during deployment",
+      "Structural Features": "Corner fasteners, precision-aligned mounting holes",
+      "Thermal Management": "Optional thermal coating available",
+      "Compliance": "Meets CubeSat Design Specification (CDS) standards"
+    },
+    "description": "Aerospace-grade 1U CubeSat structure designed for durability, easy integration, and industry compliance. Lightweight yet robust, it supports major deployers and subsystems, making it ideal for research and commercial missions.",
+    "benefits": [
+      "High strength-to-weight ratio",
+      "Compliant with CubeSat Design Specification (CDS)",
+      "Precision-machined for accurate alignment and integration",
+      "Supports standardized PC-104 stacking for subsystems",
+      "Thermal coating options available for heat management",
+      "Compatible with major deployers (P-POD, ISIPOD)",
+      "Easy assembly with included fasteners and alignment guides"
+    ],
+    "certifications": [
+      "ISO 9001:2015 – QMS Certified",
+      "NASA GEVS Compliant",
+      "MIL-STD-810G",
+      "ESA ECSS Compliant"
+    ]
+  },
+
+  "1-5u-cubesat": {
+    "title": "1.5U CubeSat",
+    "image": "https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?auto=format&fit=crop&w=1000&q=80",
+    "specs": {
+      "Dimensions": "100 mm × 100 mm × 170.25 mm",
+      "Weight": "Approx. 2.0 kg",
+      "Material": "Aerospace-grade aluminum alloy (6061-T6 or equivalent)",
+      "Surface Finish": "Black anodized for durability",
+      "Rails": "Smooth edges with 1 mm radius",
+      "Subsystem Compatibility": "PC-104 stacking format",
+      "Mounting System": "Precision-aligned holes and brackets",
+      "Compliance": "Fully meets CubeSat Design Specification (CDS)"
+    },
+    "description": "The 1.5U CubeSat structure is engineered for high strength, low mass, and seamless integration...",
+    "benefits": [
+      "50% more internal volume than 1U",
+      "CDS-compliant, compatible with launch providers",
+      "Spring plunger + optional dual kill switches",
+      "Designed for rapid integration",
+      "Suitable for high-vibration launch environments"
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "NASA GEVS Compliant",
+      "MIL-STD-810G",
+      "ESA ECSS Compliant"
+    ]
+  },
+
+  "2u-cubesat": {
+    "title": "2U CubeSat",
+    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1000&q=80",
+    "specs": {
+      "Dimensions": "100 mm × 100 mm × 227 mm",
+      "Weight": "Approx. 2.66 kg",
+      "Material": "Aerospace-grade aluminum alloy (6061-T6 or equivalent)",
+      "Surface Finish": "Black anodized",
+      "Rails": "Rounded edges for deployer compatibility",
+      "Subsystem Compatibility": "PC-104 stacking & modular tray",
+      "Compliance": "CubeSat Design Specification (CDS)"
+    },
+    "description": "This 2U CubeSat delivers double the volume of a 1U, ideal for advanced missions...",
+    "benefits": [
+      "Twice the internal volume of 1U",
+      "Flight ready and vibration tested",
+      "Optional kill switches",
+      "Supports Earth observation and communications"
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "NASA GEVS",
+      "MIL-STD-810G",
+      "ESA ECSS"
+    ]
+  },
+
+  "3u-cubesat": {
+    "title": "3U CubeSat",
+    "image": "https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=1000&q=80",
+    "specs": {
+      "Dimensions": "100 mm × 100 mm × 340.5 mm",
+      "Weight": "Approx. 4.0 kg",
+      "Material": "Aerospace-grade aluminum alloy",
+      "Rails": "P-POD and ISIPOD compliant",
+      "Subsystem Compatibility": "PC-104 stack + extended tray",
+      "Compliance": "CubeSat Design Specification (CDS)"
+    },
+    "description": "The 3U CubeSat supports complex missions and propulsion systems...",
+    "benefits": [
+      "Triple the volume of 1U",
+      "Supports propulsion modules",
+      "Compatible with major deployers",
+      "Suitable for imaging, communication, and science"
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "NASA GEVS",
+      "MIL-STD-810G",
+      "ESA ECSS"
+    ]
+  },
+
+  "6u-cubesat": {
+    "title": "6U CubeSat",
+    "image": "https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=1000&q=80",
+    "specs": {
+      "Dimensions": "100 mm × 200 mm × 340.5 mm",
+      "Weight": "Approx. 12.0 kg",
+      "Material": "Aerospace-grade aluminum alloy",
+      "Rails": "Smooth anodized rails",
+      "Subsystem Compatibility": "PC-104 stacking + trays",
+      "Compliance": "CubeSat Design Specification (CDS)"
+    },
+    "description": "The 6U CubeSat provides a durable platform for large-scale missions...",
+    "benefits": [
+      "Sixfold volume compared to 1U",
+      "Supports high-data, long-duration missions",
+      "Modular design with avionics + propulsion",
+      "Ready for launch with global deployers"
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "NASA GEVS",
+      "MIL-STD-810G",
+      "ESA ECSS"
+    ]
+  },
+
+  "12u-cubesat": {
+    "title": "12U CubeSat",
+    "image": "https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=1000&q=80",
+    "specs": {},
+    "description": "No product defined in this category.",
+    "benefits": [],
+    "certifications": []
+  }
+}

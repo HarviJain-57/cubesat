@@ -1,0 +1,141 @@
+{# {% extends "base.html" %}
+
+{% block content %}
+<section class="product-detail">
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="{{ url_for('index') }}#home">Home</a> &gt;
+            <a href="{{ url_for('index') }}#products">Products</a> &gt;
+            {{ product_id | replace('-', ' ') | upper }}
+        </div>
+
+        <div class="product-detail-container">
+            <!-- Product Image -->
+            <div class="product-gallery">
+                <img src="https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?auto=format&fit=crop&w=1000&q=80" alt="{{ product_id }}">
+            </div>
+
+            <!-- Product Info -->
+            <div class="product-info-detail">
+                <h1>{{ product_id | replace('-', ' ') | upper }}</h1>
+                <p>Aerospace-grade CubeSat structure designed for durability, easy integration, and compliance.</p>
+
+                <h3>Technical Specifications</h3>
+                <table class="specs-table">
+                    <tr><td>Dimensions:</td><td>100mm × 100mm × 113.5mm</td></tr>
+                    <tr><td>Weight:</td><td>~1.33 kg</td></tr>
+                    <tr><td>Material:</td><td>Aerospace-grade aluminum (6061-T6)</td></tr>
+                    <tr><td>Compliance:</td><td>CubeSat Design Specification (CDS)</td></tr>
+                </table>
+
+                <h3>Key Benefits</h3>
+                <ul>
+                    <li>High strength-to-weight ratio</li>
+                    <li>CDS compliant</li>
+                    <li>Precision-machined</li>
+                    <li>Compatible with major deployers</li>
+                </ul>
+
+                <h3>Certifications & Testing</h3>
+                <ul>
+                    <li>ISO 9001:2015 – QMS Certified</li>
+                    <li>NASA GEVS Compliant</li>
+                    <li>MIL-STD-810G</li>
+                    <li>ESA ECSS Compliant</li>
+                </ul>
+
+                <div class="product-actions-detail">
+                    <a href="{{ url_for('index') }}#products" class="back-btn">← Back to Products</a>
+                    <button class="inquire-btn" data-product="{{ product_id }}">Inquire Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Inquiry Modal -->
+<div class="modal" id="inquiryModal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Product Inquiry</h2>
+        <form class="inquiry-form">
+            <label>Product of Interest</label>
+            <input type="text" id="modal-product" readonly>
+            <label>Name</label>
+            <input type="text" required>
+            <label>Email</label>
+            <input type="email" required>
+            <label>Organization</label>
+            <input type="text" required>
+            <label>Message</label>
+            <textarea></textarea>
+            <button type="submit" class="submit-btn">Submit Inquiry</button>
+        </form>
+    </div>
+</div>
+{% endblock %} 
+
+
+
+
+{% extends "base.html" %}
+
+{% block content %}
+<section class="product-detail">
+    <div class="container">
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+            <a href="{{ url_for('index') }}#home">Home</a> &gt;
+            <a href="{{ url_for('index') }}#products">Products</a> &gt;
+            <span>{{ product_id | replace('-', ' ') | upper }}</span>
+        </div>
+
+        <div class="product-detail-container">
+            <!-- Product Image -->
+            <div class="product-gallery">
+                <img src="https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?auto=format&fit=crop&w=1000&q=80" 
+                     alt="{{ product_id }}">
+            </div>
+
+            <!-- Product Info -->
+            <div class="product-info-detail">
+                <h1>{{ product_id | replace('-', ' ') | upper }}</h1>
+                <p class="product-intro">
+                    Aerospace-grade CubeSat structure designed for durability, easy integration, and compliance.
+                </p>
+
+                <h3>Technical Specifications</h3>
+                <table class="specs-table">
+                    <tr><td>Dimensions:</td><td>100mm × 100mm × 113.5mm</td></tr>
+                    <tr><td>Weight:</td><td>~1.33 kg</td></tr>
+                    <tr><td>Material:</td><td>Aerospace-grade aluminum (6061-T6)</td></tr>
+                    <tr><td>Compliance:</td><td>CubeSat Design Specification (CDS)</td></tr>
+                </table>
+
+                <h3>Key Benefits</h3>
+                <ul class="benefits-list">
+                    <li>High strength-to-weight ratio</li>
+                    <li>CDS compliant</li>
+                    <li>Precision-machined</li>
+                    <li>Compatible with major deployers</li>
+                </ul>
+
+                <h3>Certifications & Testing</h3>
+                <ul class="certs-list">
+                    <li>ISO 9001:2015 – QMS Certified</li>
+                    <li>NASA GEVS Compliant</li>
+                    <li>MIL-STD-810G</li>
+                    <li>ESA ECSS Compliant</li>
+                </ul>
+
+                <!-- Actions -->
+                <div class="product-actions-detail">
+                    <a href="{{ url_for('index') }}#products" class="back-btn">← Back to Products</a>
+                    <button class="inquire-btn" data-product="{{ product_id | replace('-', ' ') | title }}">Inquire Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}   #}
+
