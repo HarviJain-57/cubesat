@@ -164,9 +164,34 @@
 
     <div class="product-detail-container">
       <!-- Product Image -->
-      <div class="product-gallery">
-        <img src="{{ product.image }}" alt="{{ product.title }}">
-      </div>
+      <!-- <div class="product-gallery">
+            <img src="{{ url_for('static', filename='images/1u.png') }}" alt="{{ product.title }}">
+        </div>
+
+        <div class="product-gallery">
+            <img src="{{ url_for('static', filename='images/1.5u.png') }}" alt="{{ product.title }}">
+        </div> -->
+
+
+        <div class="product-gallery">
+        {% if product.title == "1U CubeSat" %}
+            <img src="{{ url_for('static', filename='images/1u.png') }}" alt="{{ product.title }}">
+        {% elif product.title == "1.5U CubeSat" %}
+            <img src="{{ url_for('static', filename='images/1.5u.png') }}" alt="{{ product.title }}">
+        {% elif product.title == "2U CubeSat" %}
+            <img src="{{ url_for('static', filename='images/2u.png') }}" alt="{{ product.title }}">
+        {% elif product.title == "3U CubeSat" %}
+            <img src="{{ url_for('static', filename='images/3u.png') }}" alt="{{ product.title }}">
+        {% elif product.title == "6U CubeSat" %}
+            <img src="{{ url_for('static', filename='images/6u.png') }}" alt="{{ product.title }}">
+        {% elif product.title == "12U CubeSat" %}
+            <img src="{{ url_for('static', filename='images/12u.png') }}" alt="{{ product.title }}">
+        {% else %}
+            <img src="{{ product.image }}" alt="{{ product.title }}">
+        {% endif %}
+        </div>
+
+
 
       <!-- Product Info -->
       <div class="product-info-detail">
