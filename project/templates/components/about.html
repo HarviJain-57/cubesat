@@ -26,10 +26,12 @@
                 </div>
             </div>
             
-            <div class="about-image">
-                <div style="background-color: #eee; height: 300px; display: flex; align-items: center; justify-content: center; color: var(--gray);">
-                    <i class="fas fa-satellite" style="font-size: 80px;"></i>
-                </div>
+           <div class="about-image">
+             <img src="{{ url_for('static', filename='images/about-img.png') }}" 
+                    alt="About Image" 
+                    style="width: 810px; height: 400px; object-fit: cover; border-radius: 8px;">
+          </div>
+
             </div>
         </div>
     </div>
